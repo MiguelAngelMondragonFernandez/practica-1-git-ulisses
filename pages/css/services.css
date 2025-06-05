@@ -1,0 +1,18 @@
+.main-body {
+    padding: 20px;
+    background-color: #535252;
+    color: #ffffff;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.about-us {
+    width: 80%;
+    max-width: 800px;
+    text-align: center;
+    margin: 20px auto;
+}
