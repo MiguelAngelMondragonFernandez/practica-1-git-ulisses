@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+}
+
+.about-container {
+    width: 100vw;
+    min-height: 100vh;
+    box-sizing: border-box;
+    padding: 40px 8vw 40px 8vw;
+    background: rgba(255,255,255,0.92);
+    border-radius: 0;
+    box-shadow: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-container h1 {
+    color: #2c3e50;
+    margin-bottom: 18px;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+}
+
+.about-container h2 {
+    color: #2980b9;
+    margin-top: 28px;
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+    border-bottom: 2px solid #2980b9;
+    display: inline-block;
+    padding-bottom: 4px;
+}
+
+.about-container p {
+    color: #444;
+    line-height: 1.7;
+    margin-bottom: 12px;
+    font-size: 1.1rem;
+}
+
+.about-container ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 18px;
+    margin-bottom: 0;
+    width: 100%;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-container li {
+    background: #eaf6fb;
+    color: #2980b9;
+    margin: 8px 0;
+    padding: 10px 0;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 1.05rem;
+    transition: background 0.2s;
+}
+
+.about-container li:hover {
+    background: #d0eaf7;
+}
+
+.about-image img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    margin-bottom: 18px;
+    object-fit: cover;
+}
+
+footer {
+    margin-top: 40px;
+    color: #888;
+    font-size: 0.95rem;
+    width: 100%;
+    text-align: center;
+}
