@@ -1,3 +1,3 @@
 function redireccionAboutUs() {
-    window.location.href = "about-us.html";
+    window.location.href = "about.html";
 }
